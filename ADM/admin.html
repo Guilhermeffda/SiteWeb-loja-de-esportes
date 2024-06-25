@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Página Adm</title>
+    <link rel="stylesheet" href="admin.css">
+    <meta charset="UTF-8">
+    <script defer src="ADM.js"></script>
+</head>
+
+<header>
+
+
+    <div class="prox-pg">
+        <a href="admExcluir.html">Ir para a exclução de Produtos</a>
+    </div>
+
+    <div class="site">
+        <a href="../index.html">Voltar ao site principal</a>
+
+    </div>
+</header>
+<body>
+    <h1>Adicionar Produtos </h1>
+    <form action="admin.php" method="post" enctype="multipart/form-data">
+        <label for="nome">Nome do Produto:</label>
+        <input type="text" name="nome" id="nome" required><br>
+
+        <label for="descricao">Descrição:</label>
+        <textarea name="descricao" id="descricao" required></textarea><br>
+
+        <label for="preco">Preço do produto:</label>
+        <input type="number" name="preco" id="preco" step="0.01" required><br>
+        
+        <label for="imagem"></label>
+        <input type="file" name="imagem" id="img" required>
+
+        <button onclick="upload()">Adicionar Produto</button>
+    </form>
+
+
+
+
+
+</body>
+</html>
