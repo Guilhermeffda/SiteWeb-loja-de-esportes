@@ -1,0 +1,5 @@
+Este é um site desenvolvido como projeto de faculdade durante o segundo período. Trata-se de uma loja virtual de uniformes de times de futebol.
+No desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias: HTML, CSS, JavaScript, PHP e MySQL.
+O site apresenta uma estrutura simples, com sua página inicial exibindo os produtos disponíveis. Estes produtos estão armazenados no banco de dados e podem ser gerenciados através da página de administração (ADM) do site. Nesta página, é possível adicionar novos produtos ou excluir os existentes, utilizando PHP para realizar a interação entre o JavaScript e o MySQL.
+Na página de administração, os produtos podem ser adicionados fornecendo informações como nome, valor e imagem. As imagens são salvas em uma pasta denominada "upload".
+Ao selecionar um produto desejado, o usuário pode adicioná-lo ao carrinho de compras. No carrinho, é possível adicionar mais produtos, removê-los ou finalizar a compra. Ao optar pela compra, o site direciona o usuário para uma página de pagamento, onde é possível escolher entre as formas de pagamento disponíveis: PIX, cartão de crédito ou débito.
